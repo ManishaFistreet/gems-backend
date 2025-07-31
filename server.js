@@ -12,7 +12,10 @@ const authRoutes = require('./routes/auth');
 const app = express();
 const PORT = 4005 || 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: 'http://18.60.181.218:4005',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+}));
 
 app.use(express.json());
 
