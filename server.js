@@ -10,7 +10,7 @@ const customerItemRoutes = require("./routes/customerRoute");
 const authRoutes = require('./routes/auth');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 4005 || 5000;
 
 app.use(cors());
 
