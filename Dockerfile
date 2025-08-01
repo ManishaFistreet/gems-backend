@@ -8,4 +8,4 @@ COPY . .
 
 EXPOSE 4005
 
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
